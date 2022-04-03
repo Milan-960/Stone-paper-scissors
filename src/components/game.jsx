@@ -320,7 +320,7 @@ const Game = () => {
             }}
             transition={{ repeat: Infinity, duration: 1.2, delay: 1 }}
           >
-            Start
+            Start The Game!!
           </motion.button>
         </motion.div>
       )}
