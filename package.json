@@ -10,11 +10,12 @@
     "framer-motion": "^6.2.8",
     "particles.js": "2.0.0",
     "radium": "0.22.0",
-    "react": "^18.0.0",
+    "react": "^17.0.2",
     "react-canvas-confetti": "^1.3.0",
     "react-confetti-explosion": "^1.0.3",
-    "react-dom": "^18.0.0",
+    "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "vue-confetti-explosion": "^1.0.1",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.4",
     "workbox-broadcast-update": "^5.1.4",
@@ -53,7 +54,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "eslint-config-react-app": "^7.0.0"
-  }
+  "devDependencies": {}
 }

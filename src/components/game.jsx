@@ -1,8 +1,8 @@
+import { motion } from "framer-motion";
 import { React, useEffect, useState } from "react";
+import ConfettiExplosion from "@reonomy/react-confetti-explosion";
 
 import "../App.css";
-
-import { motion } from "framer-motion";
 
 import femaleIdle from "../assets/img/female_idle.svg";
 import female_paper from "../assets/img/female_paper.svg";
@@ -28,18 +28,18 @@ import start_sound from "../assets/sound/start.mp3";
 import confetti_sound from "../assets/sound/confetti.mp3";
 import lose_sound from "../assets/sound/lose.mp3";
 
-import ConfettiExplosion from "react-confetti-explosion";
-
-function App() {
+const Game = () => {
   const [userChoice, setUserChoice] = useState(maleIdle);
   const [computerChoice, setComputerChoice] = useState(femaleIdle);
   const [userPoints, setUserPoints] = useState(0);
   const [computerPoints, setComputerPoints] = useState(0);
   const [maleImg, setMaleImg] = useState(maleIdle);
   const [femaleImg, setFemaleImg] = useState(femaleIdle);
+
   const [result, setResult] = useState("Let's see who wins");
   const [gameOver, setGameOver] = useState(false);
   const [splash, setSplash] = useState(false);
+
   const choices = ["rock", "paper", "scissors"];
 
   let rock_sfx = new Audio(rock_sound);
@@ -168,7 +168,6 @@ function App() {
       }
     }
   }, [computerChoice, userChoice]);
-
   return (
     <>
       {splash && (
@@ -321,12 +320,12 @@ function App() {
             }}
             transition={{ repeat: Infinity, duration: 1.2, delay: 1 }}
           >
-            Start!!
+            Start
           </motion.button>
         </motion.div>
       )}
     </>
   );
-}
+};
 
-export default App;
+export default Game;
