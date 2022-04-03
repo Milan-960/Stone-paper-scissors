@@ -4,7 +4,7 @@
 
 # Live Preview
 
-[Demo](https://react-rps.netlify.app/)
+[Demo](https://stone-papers-scissors.netlify.app/)
 
 # Stone Paper Scissors
 
