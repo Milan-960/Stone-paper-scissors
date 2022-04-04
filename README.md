@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="https://raw.githubusercontent.com/kasim393/assets/main/RPS%20game/rps_banner.jpg"><br/>Stone Paper Scissors</h1>
+      <h1> <img src="./src/assets/start_img.jpeg"><br/>Stone Paper Scissors</h1>
 </div>
 
 # Live Preview
